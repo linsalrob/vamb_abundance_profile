@@ -4,13 +4,19 @@ build-backend = "hatchling.build"
 
 [project]
 name = "vamb_abundance_profile"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Rob Edwards", email="raedwards@gmail.com" },
 ]
 description = "A very simple package to convert the output of VAMB to an abundance table"
 readme = "README.md"
 requires-python = ">=3.9"
+dependencies = [
+	"argparse",
+	"numpy",
+	"pandas",
+	"scikit-learn"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",

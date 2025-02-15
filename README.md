@@ -19,7 +19,7 @@ you can also write the intermediate table to a file using the _optional_ `--abun
 You can install the package using pip:
 
 ```bash
-pip install vamb_abundance_profile
+pip install vamb-abundance-profile
 ```
 
 ## Usage
