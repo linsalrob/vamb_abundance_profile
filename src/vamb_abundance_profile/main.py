@@ -42,7 +42,7 @@ def main():
         args.cluster += '.gz'
 
     if args.verbose:
-        print("{bcolors.GREEN}Writing compressed clusters to {args.cluster}{bcolors.ENDC}")
+        print(f"{bcolors.GREEN}Writing compressed clusters to {args.cluster}{bcolors.ENDC}")
     
     pca_df.to_csv(args.cluster, compression='gzip', sep='\t')
 
